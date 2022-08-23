@@ -1,0 +1,140 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DataPanelGenerator/1.0.0": {
+        "dependencies": {
+          "CaseExtensions": "1.1.0",
+          "DataPanel": "1.0.0"
+        },
+        "runtime": {
+          "DataPanelGenerator.dll": {}
+        }
+      },
+      "CaseExtensions/1.1.0": {
+        "runtime": {
+          "lib/net5.0/CaseExtensions.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "MessagePack/2.4.14-alpha": {
+        "dependencies": {
+          "MessagePack.Annotations": "2.4.14-alpha",
+          "Microsoft.NET.StringTools": "1.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/MessagePack.dll": {
+            "assemblyVersion": "2.4.0.0",
+            "fileVersion": "2.4.14.41613"
+          }
+        }
+      },
+      "MessagePack.Annotations/2.4.14-alpha": {
+        "runtime": {
+          "lib/netstandard2.0/MessagePack.Annotations.dll": {
+            "assemblyVersion": "2.4.0.0",
+            "fileVersion": "2.4.14.41613"
+          }
+        }
+      },
+      "Microsoft.NET.StringTools/1.0.0": {
+        "dependencies": {
+          "System.Memory": "4.5.4",
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.NET.StringTools.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.26302"
+          }
+        }
+      },
+      "ParallelExtensionsExtras/1.2.0": {
+        "runtime": {
+          "lib/net40/ParallelExtensionsExtras.dll": {
+            "assemblyVersion": "1.2.3.0",
+            "fileVersion": "1.2.3.2"
+          }
+        }
+      },
+      "System.Memory/4.5.4": {},
+      "System.Runtime.CompilerServices.Unsafe/5.0.0": {},
+      "DataPanel/1.0.0": {
+        "dependencies": {
+          "MessagePack": "2.4.14-alpha",
+          "ParallelExtensionsExtras": "1.2.0"
+        },
+        "runtime": {
+          "DataPanel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DataPanelGenerator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CaseExtensions/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zEvNeodNmNai8aQ4YfhHKCTWmlMwXM8NHR+8x8WsgY5eT4eDW0yFGrO+voQ1lCzyAXJ1Djv6dUAiyraVTueapA==",
+      "path": "caseextensions/1.1.0",
+      "hashPath": "caseextensions.1.1.0.nupkg.sha512"
+    },
+    "MessagePack/2.4.14-alpha": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DBJoyX6fUlT/Ni26z1jZ5pHzzy0slOd5t19WLrqDGDGPd8SO+JugT3tIf6bLGTEqlJb5HGKYzMa2xbIQIJtLEA==",
+      "path": "messagepack/2.4.14-alpha",
+      "hashPath": "messagepack.2.4.14-alpha.nupkg.sha512"
+    },
+    "MessagePack.Annotations/2.4.14-alpha": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pvYdcRkEXxViidKrxhF+jvuixo9ZQh9KKGKAgDnCeIIywurWl5A6QDvXBT4U9XUo98jjixQlWsbfxm6sNHJwkw==",
+      "path": "messagepack.annotations/2.4.14-alpha",
+      "hashPath": "messagepack.annotations.2.4.14-alpha.nupkg.sha512"
+    },
+    "Microsoft.NET.StringTools/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZYVcoDM0LnSyT5nWoRGfShYdOecCw2sOXWwP6j1Z0u48Xq3+BVvZ+EiPCX9/8Gz439giW+O1H1kWF9Eb/w6rVg==",
+      "path": "microsoft.net.stringtools/1.0.0",
+      "hashPath": "microsoft.net.stringtools.1.0.0.nupkg.sha512"
+    },
+    "ParallelExtensionsExtras/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m0qxsgPzoOAofx+yQEKKBpMgk3+ltyPAGuQ5ZV/VaRIi6MzOsQanidWXdWCPOPJTQjih2WZxOzwrQofg3ynyKg==",
+      "path": "parallelextensionsextras/1.2.0",
+      "hashPath": "parallelextensionsextras.1.2.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "path": "system.memory/4.5.4",
+      "hashPath": "system.memory.4.5.4.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZD9TMpsmYJLrxbbmdvhwt9YEgG5WntEnZ/d1eH8JBX9LBp+Ju8BSBhUGbZMNVHHomWo2KVImJhTDl2hIgw/6MA==",
+      "path": "system.runtime.compilerservices.unsafe/5.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+    },
+    "DataPanel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

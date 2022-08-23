@@ -1,0 +1,1 @@
+"generator/DataPanelGenerator.exe" "AudioData" %1
